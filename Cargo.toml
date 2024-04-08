@@ -12,7 +12,8 @@ categories = ["compression", "data-structures"]
 edition = "2018"
 
 [dependencies]
-fid-rs = "0.1"
+# fid-rs = { version = "0.1.2-alpha.0", path = "../fid-rs" }
+fid-rs = { git = "https://github.com/shanecelis/fid-rs.git" }
 
 [dev-dependencies]
 criterion = "0.2"
